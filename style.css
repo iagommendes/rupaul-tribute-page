@@ -1,5 +1,7 @@
 body {
   background-image: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
 }
 
 img {
@@ -12,7 +14,6 @@ img {
   margin: 25px 0;
   border-radius: 8px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 #title {
@@ -24,4 +25,24 @@ img {
   border-radius: 8px;
   padding: 40px 20px;
   margin: 20px;
+}
+
+ul {
+  text-align: left;
+  margin: 0px auto 0px auto;
+  max-width: 530px;
+  line-height: 1.6;
+}
+
+li {
+  padding-bottom: 14px;
+}
+
+span {
+  font-weight: 700;
+  color: #484848;
+}
+
+blockquote {
+  margin: 26px;
 }
